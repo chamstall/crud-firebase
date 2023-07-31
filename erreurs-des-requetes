@@ -1,0 +1,15 @@
+// Le client est le programme qui envoie une requête tandis que 
+// le serveur est celui qui reçoit la requête. 
+// Le serveur renvoie une réponse en fonction de la validité de la requête.
+// Si la requête est réussie, le serveur renvoie des données
+// au format XML ou JSON (JSON dans la plupart des cas), et si la 
+// requête échoue, le serveur renvoie un message d’erreur.
+// Les réponses renvoyées par le serveur sont généralement associées
+// à des codes d’état. Ces codes nous aident à comprendre ce que 
+// le serveur essaie de dire lorsqu’il reçoit une requête. 
+// Voici quelques-uns d’entre eux et leur signification :
+// 100-199 dénote une réponse informative.
+// 200-299 dénote une requête réussie.
+// 300-399 dénote une redirection.
+// 400-499 dénote une erreur du client.
+// 500-599 indique une erreur du serveur.
